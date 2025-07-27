@@ -1,0 +1,43 @@
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment and config
+.env
+config.php  # (if contains sensitive info like DB creds)
+
+# Composer/vendor (if using PHP packages)
+vendor/
+composer.lock
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Image folders – You said you want to ignore these:
+adminImages/
+bed/
+chair/
+dcors/
+dine/
+end/
+images/
+imagesToAdd/
+sofa/
+uploaded_img/
+
+# Database exports
+*.sql
+*.sqlite
+
+# Build artifacts (optional)
+dist/
+build/
